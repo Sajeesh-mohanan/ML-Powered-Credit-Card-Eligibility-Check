@@ -1,5 +1,5 @@
 
-# 📊 Application Record Data Analysis & Predictive Modeling
+# 📊 Credit Card Application Record Data Analysis & Predictive Modeling
 
 This project provides a comprehensive analysis of application data, combining exploratory data analysis (EDA), data preprocessing, and machine learning to uncover insights and build predictive models. The goal is to understand applicant characteristics and develop a system to predict outcomes such as application approval, risk, or eligibility.
 
