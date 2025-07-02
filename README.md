@@ -25,61 +25,90 @@ The project is based on a structured dataset (`application_record.csv`) with fea
 ## 📊 Exploratory Data Analysis (EDA)
 EDA is performed using `Seaborn` and `Matplotlib` to visualize:
 - Distribution of age, income, and family size
-![alt text](image.png)
+
+![alt text](images/image.png)
 
 - Frequency of categorical features like gender, housing, and work type
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+
+![alt text](images/image-1.png)
+
+![alt text](images/image-2.png)
+
+![alt text](images/image-3.png)
+
 
 - Correlation heatmaps to identify feature relationships
-![alt text](image-6.png)
-![alt text](image-7.png)
+
+![alt text](images/image-6.png)
+
+![alt text](images/image-7.png)
 
 - Boxplots to detect outliers and assess variance
-![alt text](image-4.png)
-![alt text](image-5.png)
+
+![alt text](images/image-4.png)
+
+![alt text](images/image-5.png)
 
 
 ---
 
 ## 🧹 Data Preprocessing
 - Missing values are handled appropriately (imputation or removal).
-![alt text](image-8.png)
-![alt text](image-9.png)
+
+![alt text](images/image-8.png)
+
+![alt text](images/image-9.png)
+
 - Categorical variables are label encoded for modeling.
-![alt text](image-10.png)
+
+![alt text](images/image-10.png)
 
 - The dataset is split into train and test sets for fair evaluation.
-![alt text](image-11.png)
+
+![alt text](images/image-11.png)
 
 ---
 
 ## 📊 Feature Importance
 Important features of the model, sorting according to importance.
 
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
 ---
 
 ## 🤖 Machine Learning Models Peformance Before SMOTE Process
 A range of classification algorithms are used to build predictive models:
 - **Logistic Regression**
-  ![alt text](image.png)
+
+![alt text](images/image-29.png)
+
 - **Decision Tree Classifier**
-  ![alt text](image-3.png)
+
+![alt text](images/image-30.png)
+
 - **Random Forest Classifier**
-  ![alt text](image-4.png)
+
+![alt text](images/image-31.png)
+
 - **XGBoost Classifier**
-  ![alt text](image-7.png)
+
+![alt text](images/image-32.png)
+
 - **Extratrees Classifier**
-  ![alt text](image-5.png)
+
+![alt text](images/image-33.png)
+
 - **AdaBoost Classifier**
-  ![alt text](image-6.png)
+
+![alt text](images/image-34.png)
+
 - **Support Vector Machine (SVM)**
-  ![alt text](image-2.png)
+
+![alt text](images/image-35.png)
+
 - **K-Nearest Neighbors (KNN)**
-  ![alt text](image-1.png)
+
+![alt text](images/image-36.png)
 
 ## ⚖️ SMOTE Process
 Used SMOTE to balance the class distribution in the training data by generating synthetic samples for the minority class (label 1), increasing it from 893 to 5897 to match the majority class. It also scales features using StandardScaler and splits the data with train_test_split before oversampling.
@@ -87,21 +116,37 @@ Used SMOTE to balance the class distribution in the training data by generating 
 ## 🤖 Machine Learning Models Performance After SMOTE Process
 A range of classification algorithms are used to build predictive models:
 - **Logistic Regression**
-  ![alt text](<images/image-26.png>)
+  
+![alt text](<images/image-26.png>)
+
 - **Decision Tree Classifier**
-  ![alt text](images/image-15.png)
+
+![alt text](images/image-15.png)
+
 - **Random Forest Classifier**
-  ![alt text](images/image-22.png)
+
+![alt text](images/image-22.png)
+
 - **XGBoost Classifier**
-  ![alt text](images/image-25.png)
+
+![alt text](images/image-25.png)
+
 - **Extratrees Classifier**
-  ![alt text](images/image-23.png)
+
+![alt text](images/image-23.png)
+
 - **AdaBoost Classifier**
-  ![alt text](images/image-24.png)
+
+![alt text](images/image-24.png)
+
 - **Support Vector Machine (SVM)**
-  ![alt text](images/image-27.png)
+
+![alt text](images/image-27.png)
+
 - **K-Nearest Neighbors (KNN)**
-  ![alt text](images/image-28.png)
+
+![alt text](images/image-28.png)
+
 
 Each model is evaluated based on its predictive performance, allowing comparison and selection of the best-performing approach.
 
