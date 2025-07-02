@@ -87,7 +87,7 @@ Used SMOTE to balance the class distribution in the training data by generating 
 ## 🤖 Machine Learning Models Performance After SMOTE Process
 A range of classification algorithms are used to build predictive models:
 - **Logistic Regression**
-  ![alt text](<images\image-26.png>)
+  c:\Github\Application Record Data Analysis & Predictive Modeling\images\image-26.png
 - **Decision Tree Classifier**
   ![alt text](images\image-15.png)
 - **Random Forest Classifier**
