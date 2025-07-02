@@ -65,21 +65,21 @@ Important features of the model, sorting according to importance.
 ## 🤖 Machine Learning Models Peformance Before SMOTE Process
 A range of classification algorithms are used to build predictive models:
 - **Logistic Regression**
-  ![alt text](image-12.png)
+  ![alt text](image.png)
 - **Decision Tree Classifier**
-  ![alt text](image-15.png)
+  ![alt text](image-3.png)
 - **Random Forest Classifier**
-  ![alt text](image-17.png)
+  ![alt text](image-4.png)
 - **XGBoost Classifier**
-  ![alt text](image-20.png)
+  ![alt text](image-7.png)
 - **Extratrees Classifier**
-  ![alt text](image-18.png)
+  ![alt text](image-5.png)
 - **AdaBoost Classifier**
-  ![alt text](image-19.png)
+  ![alt text](image-6.png)
 - **Support Vector Machine (SVM)**
-  ![alt text](image-14.png)
+  ![alt text](image-2.png)
 - **K-Nearest Neighbors (KNN)**
-  ![alt text](image-13.png)
+  ![alt text](image-1.png)
 
 ## ⚖️ SMOTE Process
 Used SMOTE to balance the class distribution in the training data by generating synthetic samples for the minority class (label 1), increasing it from 893 to 5897 to match the majority class. It also scales features using StandardScaler and splits the data with train_test_split before oversampling.
@@ -87,21 +87,21 @@ Used SMOTE to balance the class distribution in the training data by generating 
 ## 🤖 Machine Learning Models Performance After SMOTE Process
 A range of classification algorithms are used to build predictive models:
 - **Logistic Regression**
-  ![alt text](image-26.png)
+  ![alt text](images\image-26.png)
 - **Decision Tree Classifier**
-  ![alt text](image-15.png)
+  ![alt text](images\image-15.png)
 - **Random Forest Classifier**
-  ![alt text](image-22.png)
+  ![alt text](images\image-22.png)
 - **XGBoost Classifier**
-  ![alt text](image-25.png)
+  ![alt text](images\image-25.png)
 - **Extratrees Classifier**
-  ![alt text](image-23.png)
+  ![alt text](images\image-23.png)
 - **AdaBoost Classifier**
-  ![alt text](image-24.png)
+  ![alt text](images\image-24.png)
 - **Support Vector Machine (SVM)**
-  ![alt text](image-27.png)
+  ![alt text](images\image-27.png)
 - **K-Nearest Neighbors (KNN)**
-  ![alt text](image-28.png)
+  ![alt text](images\image-28.png)
 
 Each model is evaluated based on its predictive performance, allowing comparison and selection of the best-performing approach.
 
