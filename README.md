@@ -87,21 +87,21 @@ Used SMOTE to balance the class distribution in the training data by generating 
 ## 🤖 Machine Learning Models Performance After SMOTE Process
 A range of classification algorithms are used to build predictive models:
 - **Logistic Regression**
-  c:\Github\Application Record Data Analysis & Predictive Modeling\images\image-26.png
+  ![alt text](<images/image-26.png>)
 - **Decision Tree Classifier**
-  ![alt text](images\image-15.png)
+  ![alt text](images/image-15.png)
 - **Random Forest Classifier**
-  ![alt text](images\image-22.png)
+  ![alt text](images/image-22.png)
 - **XGBoost Classifier**
-  ![alt text](images\image-25.png)
+  ![alt text](images/image-25.png)
 - **Extratrees Classifier**
-  ![alt text](images\image-23.png)
+  ![alt text](images/image-23.png)
 - **AdaBoost Classifier**
-  ![alt text](images\image-24.png)
+  ![alt text](images/image-24.png)
 - **Support Vector Machine (SVM)**
-  ![alt text](images\image-27.png)
+  ![alt text](images/image-27.png)
 - **K-Nearest Neighbors (KNN)**
-  ![alt text](images\image-28.png)
+  ![alt text](images/image-28.png)
 
 Each model is evaluated based on its predictive performance, allowing comparison and selection of the best-performing approach.
 
